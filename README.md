@@ -4,10 +4,9 @@ This action will build a MPLAB X project.
 
 It runs on Linux Ubuntu 18.04 and uses:
 
-- MPLAB 5.40
+- MPLAB 6.10
   - Removed Packs not targeting PIC32MX/MZ to reduce image size
-- xc32 v2.41
-- Peripheral libraries for PIC32
+- xc32 v4.30
 
 ## Inputs
 
@@ -37,10 +36,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download source
-        uses: actions/checkout@v1
+        uses: actions/checkout@v3
 
       - name: Build library
-        uses: FlippievanDyk/ghactions-mplabx@master
+        uses: rockman18/ghactions-mplabx@master
         with:
           project: firmware.X
           configuration: default
