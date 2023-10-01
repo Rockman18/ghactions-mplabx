@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
-ENV XC32VER v4.30
-ENV MPLABXVER v6.10
+ENV XC32VER v4.35
+ENV MPLABXVER v6.15
 
 RUN apt-get update && \
   apt-get install -y --no-install-recommends apt-utils \
