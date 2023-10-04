@@ -1,4 +1,4 @@
-name: "MplabX 6.10 - XC32 4.30 - Build"
+name: "MplabX 6.15 - XC32 4.35 - Build"
 description: "This action builds an MPLABX/xc32 project in a Linux container."
 branding:
   icon: package
